@@ -1,0 +1,27 @@
+name: paul
+description: PAUL is the mobile app for the Campus-Management-Software at the University of Paderborn.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.17.1
+  cupertino_icons: ^0.1.2
+  circular_check_box: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
